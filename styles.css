@@ -1,0 +1,79 @@
+/* Body Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0e7ff; /* Background color for body */
+    font-size: 16px; /* Base font size */
+    position: relative; /* Allows absolute positioning for children */
+}
+
+/* Name Positioning */
+#userName {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+}
+
+/* Main Calculator Container */
+.main-tab {
+    width: 650px;
+    padding: 20px;
+    background-color: #e3f2fd; /* Background color for the calculator box */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-size: 18px; /* Font size for calculator text */
+}
+
+/* Header and Currency Info */
+.calculator-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.currency-info {
+    background-color: #d1d5db; /* Background color for currency info */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px; /* Font size for currency info */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    max-width: 200px;
+}
+
+/* Header Styles */
+h1 {
+    margin: 0;
+    font-size: 24px; /* Font size for main header */
+}
+
+/* Label and Input Styles */
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px; /* Font size for labels */
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px; /* Font size for text inputs and select dropdown */
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+}
